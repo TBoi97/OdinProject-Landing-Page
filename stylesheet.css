@@ -1,0 +1,29 @@
+.Header{
+    border-style: solid;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+.links{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 40px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+
