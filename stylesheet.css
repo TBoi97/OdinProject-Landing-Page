@@ -3,7 +3,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
-.Top-Body, .Header{
+.top-Body, .Header{
     padding-left: 65px;
     padding-right: 65px;
 }
@@ -32,7 +32,7 @@
     list-style-type: none;
 }
 
-.Top-Body{
+.top-Body{
     color: white;
     background-color: #1f2937;
     display: flex;
@@ -108,6 +108,53 @@
     font-size: 24px;
     padding: 5px;
     margin-right: 120px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.modal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 36px 82px;
+    width: 800px;
+    gap: 16px;
+}
+
+.modal-container{
+    color: white;
+}
+
+.modal-header{
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.sign-up{
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-weight: 600;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 120px; 
 }
 
 
